@@ -14,4 +14,27 @@
 ## 2.4. 一般可以嵌套 
 ### 2.4.1. 除 h1 p 标签
 ## 2.5. 注释 <!--注释内容 -->
-## 属性
+## 2.6. 属性  
+必须在你开始标签中写，大部分标签有相同的属性。常见有id class tittle style  
+常见事件 onclick ondblclick onmouseover
+style标准属性中特殊的一个种，和css相关
+## 2.7. 手动敲出html
+## header
+   <meta charset="UTF-8">
+    <meta keywords="百度,收索引擎,第一,权威认证">
+    <meta description="百度是付费推广搜索引擎">
+<link rel="stylesheet" href="">
+script
+/最上一层
+./当前位置
+../上一层
+## cd ..
+## ls/ dir
+## 文本标签
+b i u sub sup del删除线文本
+h1-h6
+p
+br
+hr
+div
+span 行内
