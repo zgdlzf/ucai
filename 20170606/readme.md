@@ -1,5 +1,6 @@
 # 1. git
 ## 1.1. git init
+## git remote add origin [建库地址]
 ## 1.2. git add .
 ## 1.3. git commit -m "第一次提交"
 ## 1.4. git pull origin master:master

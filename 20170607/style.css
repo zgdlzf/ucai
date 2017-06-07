@@ -1,0 +1,16 @@
+#demo{
+    list-style-type:none;
+   }
+   ul li{
+       float:left;
+       margin:0 3px;
+       width:100px;
+       line-height:30px;
+       background:#a53355;
+       text-align:center;
+   }
+   ol{
+       clear:both;
+       margin:10px 3px;
+       list-style-type:none;
+   }
