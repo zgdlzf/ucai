@@ -1,5 +1,10 @@
 # a
 链接 href（超文本应用）
+<a href="mailto:zgdlzf@foxmail.com" class="">邮件</a>
+锚点
+<a href="#anchor">点击</a>
+<a href="" name="anchor">邮件</a>
+<span id="anchor"></span>
 # img
 图片标签
 src alt title
@@ -28,3 +33,7 @@ dl 自定义列表（用的较少）
  dd列表描述
  dt列表项
 # html 原则（去掉css页面仍然很好阅读）
+
+ *****
+
+<hr >

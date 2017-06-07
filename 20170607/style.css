@@ -14,3 +14,23 @@
        margin:10px 3px;
        list-style-type:none;
    }
+   #p1{
+       width:500px;
+       height:500px;
+       background:#a5335a;
+   }
+    #p2{
+       width:500px;
+       height:500px;
+       background:#125a5a;
+   }
+    #p3{
+       width:500px;
+       height:500px;
+       background:#00ff5a;
+   }
+     #p4{
+       width:500px;
+       height:500px;
+       background:#00005a;
+   }
