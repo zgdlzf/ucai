@@ -7,6 +7,7 @@
 ## 1.5. git push origin master:master
 ## 1.6. git log/reflog/-l/-v
 ## 1.7. git user.email/name
+# git reset 版本
 # 2. html
 ## 2.1. 标签
 ## 2.2. 一般小写 除DOCTYPE以外
@@ -16,6 +17,7 @@
 ### 2.4.1. 除 h1 p 标签
 ## 2.5. 注释 <!--注释内容 -->
 ## 2.6. 属性  
+
 必须在你开始标签中写，大部分标签有相同的属性。常见有id class tittle style  
 常见事件 onclick ondblclick onmouseover
 style标准属性中特殊的一个种，和css相关
