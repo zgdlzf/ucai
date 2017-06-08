@@ -7,7 +7,8 @@
 ## 1.5. git push origin master:master
 ## 1.6. git log/reflog/-l/-v
 ## 1.7. git user.email/name
-# git reset 版本
+# git reset 版本 --hard
+# git push -f origin master (回滚到以前的版本)
 # 2. html
 ## 2.1. 标签
 ## 2.2. 一般小写 除DOCTYPE以外
