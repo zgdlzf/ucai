@@ -14,6 +14,11 @@
        margin:10px 3px;
        list-style-type:none;
    }
+   #exam{
+       width:500px;
+       height:500px;
+       overflow:hidden;
+   }
    #p1{
        width:500px;
        height:500px;
