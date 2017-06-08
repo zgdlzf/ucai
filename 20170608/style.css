@@ -1,3 +1,77 @@
+.num0{
+    margin: 0 auto;
+}
+.num0 tr td{
+    width:20px;
+    height:20px;
+}
+.num1{
+    margin: 0 auto;
+}
+.num1 tr td{
+    width:20px;
+    height:20px;
+}
+.num2{
+    margin: 0 auto;
+}
+.num2 tr td{
+    width:20px;
+    height:20px;
+}
+.num3{
+    margin: 0 auto;
+}
+.num3 tr td{
+    width:20px;
+    height:20px;
+}
+.num4{
+    margin: 0 auto;
+}
+.num4 tr td{
+    width:20px;
+    height:20px;
+}
+.num5{
+    margin: 0 auto;
+}
+.num5 tr td{
+    width:20px;
+    height:20px;
+}
+.num6{
+    margin: 0 auto;
+}
+.num6 tr td{
+    width:20px;
+    height:20px;
+}
+.num7{
+    margin: 0 auto;
+}
+.num7 tr td{
+    width:20px;
+    height:20px;
+}
+.num8{
+    margin: 0 auto;
+}
+.num8 tr td{
+    width:20px;
+    height:20px;
+}
+.num9{
+    margin: 0 auto;
+}
+.num9 tr td{
+    width:20px;
+    height:20px;
+}
+.black1{
+    background-color:#000;
+}
+
 .t3{
     width:600px;
     height:600px;
@@ -13,8 +87,6 @@
     padding:0;
 }
 .t2{
-    width:600px;
-    height:400px;
     text-align:center;
     margin:10px auto;
 }
