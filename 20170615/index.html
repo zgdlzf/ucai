@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>中文城市</legend>
+            <select name="city" required>
+                <option value="0">北京</option>
+                <option value="1" disabled>深圳</option>
+                <option value="2">成都</option>
+                <option value="3">武汉</option>
+                <option value="4">杭州</option>
+            </select>
+            <input type="submit" value="提交">
+        </fieldset>
+        <fieldset>
+            <legend>英文城市</legend>
+            <input type="text" class="" list="data" name="city">
+            <datalist id="data">
+                <option value="beijing">
+                <option value="shanghai">
+                <option value="shenzhen">
+                <option value="guangzhong">
+                <option value="hangzhou">
+            </datalist>
+        </fieldset>
+    </form>
+</body>
+</html>
