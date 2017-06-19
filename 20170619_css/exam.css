@@ -1,0 +1,26 @@
+.table{
+
+}
+.th+.td{
+    color:#f00;
+}
+.th{
+    color:#0f0;
+}
+[title=dd]{
+    color:#00f;
+    font-size:40px;
+    border:5px dashed #abc;
+}
+[title~=hello]{
+    border:5px solid #00f;
+    font-size:40px;
+}
+[title|=hello]{
+    border:5px solid #00f;
+    font-size:40px;
+}
+[title*=hello]{
+    border:5px solid #a5f;
+    font-size:40px;
+}
