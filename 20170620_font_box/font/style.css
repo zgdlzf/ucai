@@ -1,0 +1,117 @@
+html,body{
+    margin:0;
+    padding: 0;
+    background-color:#000;
+}
+p{
+    font:normal bold 30px/40px "宋体";
+    font-family:"宋体","微软雅黑", Arial;
+    font-size:24px;
+    font-weight:bold;
+    /*400-900*/
+    /*font-style:italic;*/
+    line-height:40px;
+    /*text-shadow:5px 3px 5px #575;*/
+    /*font-style>font-weight>font-size>font-family*/
+}
+.some.some3{
+    font-family:"华文彩云";
+    font-size:40px;
+    font-weight:600px;
+    font-style:italic;
+    font-variant:small-caps;
+    color:#34a;
+    text-align:center;
+    vertical-align:bottom;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    text-indent:32px;
+    width:500px;
+}
+.main{
+}
+.demo{
+    
+    vertical-align:bottom;
+    /*text-shadow:3px 5px 1px #23a;*/
+
+}
+.one{
+    border:10px solid #fff;
+    width:414px;
+    height:344px;
+    margin:0 auto;
+    background:url(../images/2.png);
+    text-align:center;
+}
+.second{
+    height:42px;
+}
+.l1 div{
+    color:#fff;
+    font-size:27px;
+    width:260px;
+    display:inline-block;
+    text-align:left;
+}
+.l2{
+    font-size:40px;
+    color:#fff;
+}
+.l3{
+    font-size:20px;
+    color:#A58;
+    margin:auto 10px;
+    width:300px;
+    background: #FFF;
+    display:inline-block;
+}
+.l4{
+    font-size:72px;
+    color:#fff;
+}
+/*.one{
+    margin:0 auto;
+    padding:20px;
+    width:474px;
+    height:auto;
+
+}
+.second{
+    border: 20px solid #fff;
+    width:434px;
+    height:365px;
+    background:url(./images/2.png);
+       
+}
+.second span{
+    background:#fff;
+}
+.l1{
+    color:#FFF;
+    font:20px "微软雅黑";
+    line-height:20px;
+    margin:20% auto 0 30%;
+    
+}
+.l2{
+    color:#FFF;
+    font:25px "微软雅黑";
+    line-height:20px;
+    margin:10px auto 0 30%;
+}
+.l3{
+    color:#a35;
+    font:10px "微软雅黑";
+    line-height:20px;
+    margin:10px auto 0 30%;
+}
+.l4{
+    color:#FFF;
+    font:40px "微软雅黑";
+    line-height:20px;
+    margin:10px auto 0 30%;
+}*/
+
+
