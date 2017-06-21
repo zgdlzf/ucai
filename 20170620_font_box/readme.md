@@ -22,7 +22,7 @@ padding 上 右 下 左
 缩写 缺省的用对应方向代替
 border：1px solid #fff;这种方式不支持缩写
 # div第一个元素有margin时会撑开父元素、
-解决方法：1，overflow:hidden;
+解决方法：1，给父元素一个overflow:hidden;
 2.給父容器一个padding值 但不容易计算
 3.用父元素的padding-top替代子元素的margin-top
 4.习惯写法父元素padding-top和left子代marginright和bottom
@@ -31,6 +31,7 @@ border：1px solid #fff;这种方式不支持缩写
 .father ::before{
     content:" ";
 }
+如果不需要兼容IE9以下浏览器，推荐：：before，否则推荐空div
 ## 作业
 1.排版作业
 2.emmet
