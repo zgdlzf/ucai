@@ -2,6 +2,10 @@ html,body{
     margin:0;
     padding:0;
 }
+ul,dl,ol,li{
+    margin:0;
+    padding: 0;
+}
 .marginTopBug::before{
     content:" ";
     display:inline-block;
@@ -63,16 +67,17 @@ html,body{
     font:18px "微软雅黑";
 }
 .nav_font1{
-    width:50px;
+    width:80px;
     height:40px;
     margin-left:357px;
     margin-top:28px;
     list-style-type:none;
+    text-align:center;
 }
 .nav_font2,.nav_font3,.nav_font4,.nav_font5{
     margin-top:28px;
-    margin-left:76px;
     list-style-type:none;
+    width:80px;
 }
 a{
     text-decoration:none;
@@ -80,12 +85,18 @@ a{
 a:link{
     color:#fff;
 }
-a:hover{
-    color:#fff;
+a:hover .angle_01{
+    border-bottom-color:#000;
 }
 a:visited{
     color:#fff;
 }
 a:active{
     color:#a43;
+}
+.angle_01{
+    margin:4px auto 0;
+    width:0;
+    border:10px solid #d0d0d0;
+
 }

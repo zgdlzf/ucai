@@ -32,6 +32,7 @@ border：1px solid #fff;这种方式不支持缩写
     content:" ";
 }
 如果不需要兼容IE9以下浏览器，推荐：：before，否则推荐空div
+另外，浮动也可以消除margintopbug问题
 ## 作业
 1.排版作业
 2.emmet

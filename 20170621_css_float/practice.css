@@ -61,6 +61,17 @@ html,body{
     font-weight:bold;
     border-bottom:1px solid #555;
 }
+.bigP01{
+    position:relative;
+}
+.bigP01 a{
+    display:block;
+    width:343px;
+    height:70px;
+    position:absolute;
+    left:424px;
+    top:159px;
+}
 .dis_01{
     margin-left:144px;
     margin-top:40px;

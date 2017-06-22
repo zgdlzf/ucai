@@ -1,0 +1,56 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.father{
+    width:400px;
+    height:400px;
+    background:#f0f;
+    position:relative;
+}
+.father .son1{
+    width:40px;
+    height:40px;
+    background:#0f0;
+    position:relative;
+    left:50px;
+}
+.father .son{
+    width:40px;
+    height:40px;
+    background:#0f0;
+}
+.mon{
+    width:200px;
+    height:200px;
+    background:#00f;
+}
+.mon .son.son1{
+    width:30px;
+    height:30px;
+    background:#0fa;
+    position:fixed;
+    left:50px;
+}
+.mon .son{
+    width:30px;
+    height:30px;
+    background:#0fa;
+}
+.len{
+    width:100%;
+    height:200px;
+    position:relative;
+    background:#ff0;
+}
+.len1{
+    width:100px;
+    height:100px;
+    position:absolute;
+    background:#f0f;
+    margin:auto;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
