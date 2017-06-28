@@ -1,0 +1,40 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:500px;
+    height:500px;
+    background-color:#999;
+    margin:0 auto;
+    position:relative;
+}
+.item1{
+    width:30px;
+    height:50px;
+    background-color:#f2f;
+    float:left;
+}
+.item3{
+    width:30px;
+    height:50px;
+    background-color:#2ff;
+    float:left;
+    position:absolute;
+    left:30px;
+    top:0px;
+}
+.item1:hover+.item2{
+
+    width:500px;
+    height:470px;
+    background-color:#ff4;
+    margin-top:50px;
+}
+.item3:hover+.item4{
+    width:500px;
+    height:470px;
+    background-color:#e4e;
+    margin-top:50px;
+
+}
