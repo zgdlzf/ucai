@@ -158,7 +158,6 @@ ul,li{
     width:1197px;
     height:1590px;
     margin:0 auto;
-    position:relative;
     background-image:url("./images/qrcode.png");
     background-position:1269px 494px;
     background-repeat:no-repeat;
@@ -457,6 +456,159 @@ ul,li{
     overflow:hidden;
     text-overflow:ellipsis;
 }
+
+.main-item3{
+    width:779px;
+    height:501px;
+    background-color:#f2f1ef;
+    margin-top:20px;
+}
+.activity-title{
+    width:751px;
+    height:27px;
+    margin-left:20px;
+    margin-top:18px;
+}
+.activity-title1{
+    width:116px;
+    height:26px;
+    float:left;
+    line-height:26px;
+}
+.activity-title1 img{
+    width:20px;
+    height:20px;
+    margin-top:3px;
+    float:left;
+}
+.activity-title1 span{
+    width:86px;
+    height:24px;
+    float:left;
+    margin-left:10px;
+}
+.activity-title2{
+    width:38px;
+    height:16px;
+    float:right;
+}
+.activity-content{
+    width:710px;
+    margin-left:20px;
+    margin-top:16px;
+}
+.activity-content1{
+    width:745px;
+    height:126px;
+    background-color:#fff;
+}
+.activity-content1 img{
+    width:226px;
+    height:160px;
+    float:left;
+}
+.activity1-title{
+    width:566px;
+    height:20px;
+    margin-left:18px;
+    margin-top:17px;
+    font-size:20px;
+    font-weight:900px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    
+}
+.activity-content1 em{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url("./images/images/03(17).png");
+}
+.activity1-content{
+    width:640px;
+    height:15px;
+    font-size:14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.activity-content2{
+    width:745px;
+    height:126px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.activity-content2 img{
+    width:226px;
+    height:160px;
+    float:left;
+}
+.activity2-title{
+    width:640px;
+    height:20px;
+    margin-left:18px;
+    margin-top:17px;
+    font-size:20px;
+    font-weight:900px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    
+}
+.activity-content2 em{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url("./images/images/03(17).png");
+}
+.activity2-content{
+    width:640px;
+    height:15px;
+    font-size:14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.activity-content3{
+    width:745px;
+    height:126px;
+    background-color:#fff;
+    margin-top:20px;
+}
+.activity-content3 img{
+    width:226px;
+    height:160px;
+    float:left;
+    margin-top:18px;
+    margin-left:20px;
+}
+.activity3-title{
+    width:590px;
+    height:20px;
+    margin-left:18px;
+    margin-top:17px;
+    font-size:20px;
+    font-weight:900px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    
+}
+.activity-content3 em{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url("./images/images/03(17).png");
+}
+.activity3-content{
+    width:630px;
+    height:15px;
+    font-size:14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
 .main-right{
     width:266px;
     height:1590px;
@@ -464,13 +616,79 @@ ul,li{
     margin-right:130px;
     margin-top:18px;
     float:right;
+    position:relative;
 }
+.ranking{
+    margin-left:20px;
+    margin-top:20px;
+    width:100px;
+    height:20px;
+}
+.ranking1{
+    width:18px;
+    height:18px;
+    color:#000;
+    font-size:7px;
+    border:1px solid #000000;
+    border-bottom-color:#fcfafb;
+    float:left;
+}
+.ranking2{
+    width:70px;
+    height:20px;
+    font-size:20px;
+    color:#000;
+    margin-left:10px;
+    float:left;
+}
+.hot-rank{
+    width:110px;
+    height:30px;
+    float:left;
+    position:absolute;
+    left:20px;
+    top:60px;
+}
+.new-course{
+    width:110px;
+    height:30px;
+    float:left;;
+    position:absolute;
+    top:60px;
+    left:130px;
+
+}
+.hot-rank-main{
+    position:absolute;
+    left:20px;
+    top:109px;
+    z-index:2;
+    background-color: #fcfafb;
+}
+.new-course-main{
+    position:absolute;
+    left:20px;
+    top:109px;
+    z-index:1;
+    background-color: #fcfafb;
+}
+.hot-rank:hover+.hot-rank-main{
+    z-index:1000;
+}
+.new-course:hover+.new-course-main{
+    z-index:1000;
+}
+
 .qrcode{
     width:120px;
     height:164px;
     position:absolute;
     left:1075px;
     top:18px;
+}
+.ribbon{
+    height:3px;
+    background-image: url("./images/images/ribbon.png");
 }
 .bottom{
     width:100%;
