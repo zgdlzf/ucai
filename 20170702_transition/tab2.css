@@ -1,0 +1,64 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+.clear-float::after,.clear-float:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.tab_container{
+  width:600px;
+  position:relative;
+}
+.tab_container>*{
+  float:left;
+}
+.tab_container .tab{
+  width:100px;
+  height:30px;
+}
+.box1 .tab{
+  background-color: #f33;
+}
+.box2 .tab{
+  background-color: #3f3;
+}
+.box3 .tab{
+  background-color: #33f;
+}
+.box4 .tab{
+  background-color: #333;
+}
+.tab_container .content{
+  width:600px;
+  height:600px;
+  position:absolute;
+  left:0;
+  top:30px;
+  visibility:hidden;
+}
+.box1 .content{
+  background-color: #a33;
+}
+.box2 .content{
+  background-color: #3a3;
+}
+.box3 .content{
+  background-color: #33a;
+}
+.box4 .content{
+  background-color: #111;
+}
+.box1:hover>.content{
+  visibility:visible;
+}
+.box2:hover>.content{
+  visibility:visible;
+}
+.box3:hover>.content{
+  visibility:visible;
+}
+.box4:hover>.content{
+  visibility:visible;
+}
