@@ -1,0 +1,49 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+.clear-margin::before{
+  content:"";
+  display:block;
+  overflow:hidden;
+}
+.clear-float::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.gt{
+  overflow:auto;
+}
+.container{
+  width:500px;
+  height:500px;
+  background-color: #000;
+  position:relative;
+  margin-left:50px;
+}
+.item{
+  width:100px;
+  height:100px;
+  float:left;
+  
+}
+.item1{
+  background-color: #f33;
+}
+.item2{
+  background-color: #ff3;
+  position:fixed;
+  left:300px;
+  top:300px;
+}
+.item3{
+  background-color: #3f3;
+}
+.th{
+  width:200px;
+  height:200px;
+  background-color: #3ff;
+  cursor: pointer;
+  cursor: auto;
+}

@@ -1,0 +1,51 @@
+.container{
+  width:400px;
+  height:400px;
+  background-color: #3ff;
+  position:relative;
+  /*padding:50px 10px  5px 5px;*/
+  /*overflow:hidden;*/
+  /*padding-top:1px;*/
+  /*padding-top:30px;*/
+  
+}
+.item{
+  width:200px;
+  height:200px;
+  background-color: #ff3;
+  font-size:25px;
+  font-family:Microsoft Yahei;
+  color:#f33;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  border-width:5px;
+  border-style:double;
+  border-color:#000;
+
+
+  /*font-weight:bold;*/
+  /*font-style:italic;*/
+  /*font-style,font-weight,font-size,font-family*/
+  
+  /*font:bold italic  25px "微软雅黑";*/
+}
+.container::before,.container::after{
+  content:"";
+  height:100%;
+}
+.container::before,.container::after,.item{
+  display:inline-block;
+  vertical-align:bottom;
+}
+.n{
+  width:10px;
+  height:10px;
+  background-color: #000;
+  float:left;
+}
+/*.container::before{
+  content:"";
+  display:block;
+  overflow:hidden;
+}*/
