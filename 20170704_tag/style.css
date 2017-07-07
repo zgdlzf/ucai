@@ -1,0 +1,24 @@
+.margintop::before{
+  content:"";
+  display:block;
+  overflow:hidden;
+}
+#p1{
+  width:200px;
+  height:200px;
+  background-color:#3ff;
+  display:inline-block;
+}
+.p2{
+  width:200px;
+  height:200px;
+  background-color:#f3f;
+  display:inline-block;
+}
+dt{
+ display:inline-block;
+}
+li{
+  float:left;
+  list-style:none;
+}

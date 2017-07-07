@@ -1,0 +1,57 @@
+
+#container.demo{
+  width:200px;
+  height:200px;
+  background-color: #3ff;
+}
+.container.demo2{
+  width:200px;
+  height:200px;
+  background-color: #f3f;
+}
+.demo1,.demo3{
+  width:100px;
+  height:100px;
+  background-color: #33f;
+}
+.demo .demo2{
+  background-color: #000;
+}
+.demo2 .grandson{
+
+}
+.demo .grandson{
+  width:50px;
+  height:50px;
+  background-color: #fff;
+}
+.demo2>.grandson{
+  background-color: #3f3;
+}
+.demo1+.demo2{
+  background-color: #ff3;
+}
+.demo.demo1{
+  width:100px;
+  height:30px;
+}
+.demo.demo2{
+  width:400px;
+  height:400px;
+  background-color: #a35;
+}
+.demo.demo1:hover+.demo.demo2{
+  display:none;
+}
+a:link{
+  color:#f3f;
+}
+a:visited{
+  color:#f3f;
+}
+a:hover{
+  color:#000;
+}
+a:active{
+  color:#3f3;
+}
